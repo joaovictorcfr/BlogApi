@@ -1,0 +1,30 @@
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links ul li {
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 1rem;
+}
+
+.links ul li:hover {
+  color: #72ff20;
+}
+
+.container {
+  border-top: 1px solid #fff;
+ 
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  justify-content: center;
+}
+
+.container h2 {
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+.post_id {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  height: 650px;
+}
+
+.container_id h1,
+h2 {
+  color: #ffffff;
+}
+
+.post h2 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.post p {
+  color: #969696;
+  padding-bottom: 16rem;
+}

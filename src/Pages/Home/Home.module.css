@@ -1,0 +1,60 @@
+.container_home h1,
+h2 {
+  color: #ffffff;
+}
+
+.container_home p{
+  color: #969696;;
+}
+
+.container_home h1 {
+  text-align: center;
+  margin: 2rem;
+  text-transform: uppercase;
+}
+
+.container_title h2 {
+  text-transform: uppercase;
+  padding-left: 6rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.posts {
+  padding-left: 6rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ffffff;
+}
+
+.posts h2,
+p {
+  margin-bottom: 1.5rem;
+}
+
+.posts Link {
+  text-decoration: none;
+}
+
+.posts h2::first-letter {
+  text-transform: uppercase;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  width: 100px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #72ff20;
+  letter-spacing: 2px;
+}

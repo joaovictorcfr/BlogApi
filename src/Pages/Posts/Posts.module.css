@@ -1,0 +1,68 @@
+.container_post h1 {
+  margin: 1.5rem;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formin {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_control {
+  height: 500px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+}
+
+.form_control label {
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.form_control input {
+  border-radius: 12px;
+  height: 50px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.form_control textarea {
+  border-radius: 12px;
+  height: 200px;
+  color: #000000;
+  text-align: center;
+  background-color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  width: 100px;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 18.5rem;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #72ff20;
+  letter-spacing: 2px;
+}

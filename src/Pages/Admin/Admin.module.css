@@ -1,0 +1,70 @@
+.container_admin {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_admin h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 4rem;
+}
+
+.container_admin h2 {
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  padding-left: 6rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1.5rem;
+  padding-left: 6rem;
+  margin-bottom: 2rem;
+}
+
+.btn_edi,
+.btn {
+  font-size: 1.5rem;
+  font-family: Arial;
+}
+
+.btn_edit {
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 1rem;
+
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn_edit:hover {
+  background-color: #72ff20;
+  letter-spacing: 2px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 1rem;
+
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff0000;
+  letter-spacing: 2px;
+}
+
+.post {
+  border-bottom: 1px solid #ddd;
+}
